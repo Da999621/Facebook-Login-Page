@@ -1,0 +1,82 @@
+/* styles.css */
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;  /* Sets the font family for all text in the body to Arial or sans-serif if Arial is not available */
+    background-color: #f0f2f5;  /* Sets the background color of the body to a light greyish-blue */
+    display: flex;  /* Uses Flexbox layout for the body */
+    justify-content: center;  /* Centers items horizontally within the body */
+    align-items: center;  /* Centers items vertically within the body */
+    height: 100vh;  /* Sets the height of the body to 100% of the viewport height */
+    margin: 0;  /* Removes default margin */
+}
+
+
+.login-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+input[type="text"],
+input[type="password"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+button {
+    background-color: #1877f2;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+button:hover {
+    background-color: #166fe5;
+}
+
+.forgot-password {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.create-account {
+    background-color: #42b72a;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.create-account:hover {
+    background-color: #36a420;
+}
+
+a {
+    text-decoration: none;
+    color: #1877f2;
+}
+
+a:hover {
+    text-decoration: underline;
+}
